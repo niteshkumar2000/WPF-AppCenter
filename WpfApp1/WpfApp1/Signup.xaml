@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.Signup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Signup" Height="350" Width="300" HorizontalAlignment="Center" Background="ForestGreen" Closing="Window_Closing">
+    <Border Background="Black" CornerRadius="25" Margin="20">
+        <StackPanel Margin="20">
+            <Label Content="Signup" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
+            <Separator></Separator>
+            <Label Content="Username" Foreground="White"/>
+            <TextBox Name="txtusername" Background="#545D6A" Foreground="White" FontSize="18"/>
+            <Label Content="Password" Foreground="White"/>
+            <PasswordBox Name="txtpassword" Background="#545D6A" Foreground="White" FontSize="18"/>
+            <Label Content="Confirm Password" Foreground="White"/>
+            <PasswordBox Name="txtconfirmpassword" Background="#545D6A" Foreground="White" FontSize="18"/>
+            <Button Name="btnsumbit" Click="Btnsumbit_Click_1" Content="Submit" Background="#545D6A" Foreground="White" Margin="60 5"/>
+        </StackPanel>
+    </Border>
+</Window>
